@@ -16,7 +16,7 @@ public class ControllerCentreStatusReport {
 @Autowired
 private CentreStatusReportService centreStatusReportService;
 @PostMapping("/savePost")
-public ResponseEntity<CentreStatusReport> saveData(@RequestBody CentreStatusReport centreStatusReport) {
+public ResponseEntity<CentreStatusReport> saveReport(@RequestBody CentreStatusReport centreStatusReport) {
 	CentreStatusReport centre =centreStatusReportService.saveCentreStatusReport(centreStatusReport);
 	return ResponseEntity.ok().body(centre);
 }
