@@ -20,4 +20,8 @@ public ResponseEntity<CentreStatusReport> saveReport(@RequestBody CentreStatusRe
 	CentreStatusReport centre =centreStatusReportService.saveCentreStatusReport(centreStatusReport);
 	return ResponseEntity.ok().body(centre);
 }
+private void sout() {
+	// TODO Auto-generated method stub
+
+}
 }
