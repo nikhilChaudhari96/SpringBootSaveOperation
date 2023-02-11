@@ -123,5 +123,13 @@ public Date getDate() {
 public void setDate(Date date) {
 	this.date = new Date();
 }
+@Override
+public String toString() {
+	return "CentreStatusReport [id=" + id + ", francheseId=" + francheseId + ", centreName=" + centreName
+			+ ", openingBalance=" + openingBalance + ", developingRoot=" + developingRoot + ", emmergingWings="
+			+ emmergingWings + ", readyToFly_1=" + readyToFly_1 + ", readyToFly_2=" + readyToFly_2 + ", closingBalance="
+			+ closingBalance + ", existingPromoted=" + existingPromoted + ", acadName=" + acadName + ", addedBy="
+			+ addedBy + ", date=" + date + "]";
+}
 
 }
