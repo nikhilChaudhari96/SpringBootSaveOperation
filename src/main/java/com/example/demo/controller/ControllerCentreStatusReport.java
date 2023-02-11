@@ -21,7 +21,10 @@ public ResponseEntity<CentreStatusReport> saveReport(@RequestBody CentreStatusRe
 	return ResponseEntity.ok().body(centre);
 }
 private void sout() {
-	// TODO Auto-generated method stub
 
+
+}
+public void gn() {
+	
 }
 }
