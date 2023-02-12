@@ -23,6 +23,8 @@ public ResponseEntity<CentreStatusReport> saveData(@RequestBody CentreStatusRepo
 	CentreStatusReport centre =centreStatusReportService.saveCentreStatusReport(centreStatusReport);
 	Map map=new HashMap();
 	map.put(1, "nikhil");
+	map.put(2, "pratik");
+	map.put(3, "sushil");
 	System.out.println(map);
 	return ResponseEntity.ok().body(centre);
 
