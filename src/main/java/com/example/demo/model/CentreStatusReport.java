@@ -22,6 +22,7 @@ public class CentreStatusReport {
 private int id;
 	@Column(name="frcid")
 private String francheseId;
+	private String address;
 	@Column (name="centrename")
 	private String name;
 private String centreName;
