@@ -24,6 +24,7 @@ private int id;
 private String francheseId;
 	private String address;
 	@Column (name="centrename")
+	private String fullname;
 	private String name;
 private String centreName;
 	@Column(name="opening_balance")
